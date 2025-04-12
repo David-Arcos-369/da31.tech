@@ -1,0 +1,165 @@
+.ul, li {
+list-style-type: none!important;
+}
+
+.li {
+list-style-type: none!important;
+}
+
+.list-group-flush {
+list-style-type: none!important;
+background-color: transparent;
+
+}
+
+.myBorder {
+            border: 5px solid green;
+}
+
+.myBorder2 {
+            border: 5px solid red;
+}
+
+.myBorder3 {
+            border: 5px solid blue;
+}
+
+.myBorder4 {
+            border: 5px solid rgb(198, 14, 130);
+}
+
+.img3 {
+display: flex;
+ align-items: center!important;
+}
+
+.a3 {
+            display: flex;
+            float: left;
+            text-align: left;
+            text-decoration: none;
+            align-items: flex-end;;
+}
+
+#sidebar-wrapper {
+  width: 0;
+  display: hidden;
+  transition: width 0.35s ease;
+}
+
+.sidebar-wrapper-collapse{
+  width: 0;
+display: hidden;
+  transition: width 0.35s ease;
+}
+
+.sidebar-wrapper-collapse a{
+  width: 0;
+  overflow: hidden;
+  transition: width 0.35s ease;
+}
+
+.card-body {
+            background: transparent!important;
+            border: none;
+            padding-top: 0;
+            margin-top: 0;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            font-weight: 300;
+
+}
+
+.card {
+            background: transparent!important;
+            border: none;
+            padding-top: 0;
+            margin-top: 0;
+}
+
+.collapse {
+    display: none, default!important;
+
+}
+
+.show {
+    display:contents!important;
+}
+
+.collapsing {
+  height: 0;
+  overflow: hidden;
+}
+
+.collapse-horizontal {
+    width: 0;
+    height: auto;
+}
+
+.showHideBtn a:hover a:link{
+            padding: 0!important;
+            margin: 0 0 0 1.75rem;
+            background: transparent!important;
+            color: #000;
+            border-collapse: collapse;
+            border-color: none!important;
+            font-style:italic;
+}
+
+.showHideBtn {
+            padding: 0!important;
+            margin: 0 0 0 1.5rem;
+            background: transparent!important;
+            color: #000;
+            border-collapse:collapse;
+            border-color: none!important;
+            font-style:italic;
+
+}
+
+.showHideBtn2 {
+            padding: 0!important;
+            margin-top: 1rem;
+            background: transparent!important;
+            color: #FFF;
+            border-collapse:collapse;
+            border-color: none!important;
+            font-style:italic;
+            float: left;
+
+}
+
+#map {
+  height: 50%;
+}
+
+/* modal styles*/
+
+.modal-body {
+  vertical-align: 1rem;
+	min-width : 800px;
+	width : 1250px;
+	max-width : 1600px;
+	min-height : 400px;
+	height : 1000px;
+	max-height : 1000px;
+	background-color : rgba(255 255 255 .35);
+	box-shadow : 0px 1px 4px #ccc;
+	margin : auto;
+	overflow:auto;
+  scroll-margin-right: auto;
+}
+
+.modal-background {
+  background-color: rgba(255 255 255 .35);
+  width: 100%;
+  height: 100%;
+}
+
+.iframe {
+  width: 100%;
+  height: 100%;
+  background-color:whitesmoke;
+  padding: 0;
+  margin: 0;
+}
